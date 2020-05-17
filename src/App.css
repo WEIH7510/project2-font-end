@@ -44,10 +44,6 @@
   font-weight: light;
   font-style: italic;
 }
-.comment-field-input input {
-  width: 150px;
-  height: 30px;
-}
 
 .comment-field-input textarea{
   width: 200px;

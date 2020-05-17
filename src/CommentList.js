@@ -1,15 +1,12 @@
 import React from 'react';
 import Comment from './Comment';
 import './App.css';
-import {useSelector} from 'react-redux';
 
-function  CommentList () {
-  const comments=useSelector(state=>state.comments);          
-
+function  CommentList (props) {        
 
   return (
     <div>
-      {comments.map((comment, i) => <Comment comment={comment} key={i} />)}
+      {props.comments.map((comment, i=0) => <Comment comment={comment} key={i++} number={i}/>)}
     </div>
   )
   
