@@ -27,7 +27,8 @@ function App(){
         <h1>Review new apple devices</h1>
             <div id = "images">
 
-                <div className = "images1">
+                <div className = "image">
+                    <h2>Ipad Pro 2020</h2>
                     <img src={tsIcon1} alt="" />
                     <div className='wrapper'>
                         <CommentInput id={1}/>
@@ -38,7 +39,8 @@ function App(){
                     </div>
                     
                 </div>
-                <div className = "images2">
+                <div className = "image">
+                    <h2>Magic Keyboard 2020</h2>
                     <img src={tsIcon2} alt="" />
                     <div className='wrapper'>
                         <CommentInput id={2}/>
@@ -48,7 +50,8 @@ function App(){
                         <CommentList comments={comments2} />
                     </div>
                 </div>
-                <div className = "images3">
+                <div className = "image">
+                    <h2>Airpods Pro 2020</h2>
                     <img src={tsIcon3} alt="" />                    
                     <div className='wrapper'>
                         <CommentInput id={3}/>

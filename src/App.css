@@ -1,29 +1,44 @@
 
+#whole{
+  overflow: hidden;
+  padding: 10px;
+  padding-right: 10px;
+}
 #whole h1{
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 #images {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
-#images .images1 img{
+#images .image img{
+  
   width: 300px;
   height: 300px;
-  padding: 70px;
+  padding: 60px;
+  padding-left: 10px;
 }
 
-#images .images2 img{
+
+#images .image img{
   width: 400px;
   height: 300px;
-  padding: 70px;
+  padding: 60px;
+  padding-left: 0px;
 }
 
-#images .images3 img{
+#images .image img{
   width: 300px;
   height: 300px;
-  padding: 70px;
+  padding: 60px;
+  padding-left:50px;
   
-  
+}
+
+.image{
+  width: 32%;
 }
 
 .wrapper {
@@ -46,11 +61,16 @@
 }
 
 .comment-field-input textarea{
-  width: 200px;
+  width: 400px;
   height: 40px;
-  
 }
 .comment-field-button button{
   font-weight: bold;
+}
+
+.list{
+  border: solid 1px gray;
+  width: 400px;
+  height: 500px;
 }
 
